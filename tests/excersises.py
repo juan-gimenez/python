@@ -62,4 +62,37 @@ def is_palindromo(string):
     print ("True") if reversed1 == string else print("False")
 
 
-is_palindromo("ana")
+is_palindromo("arenera")
+
+
+""" 7) program that prints the numbers from 1 to 100. But for multiples of three print “Fizz” instead of the number and for the multiples of five print “Buzz”"""
+
+
+for i in range(1,100):
+    if(i % 15 == 0):
+        print("FizzBuzz")
+    elif(i % 5 == 0):
+        print("Buzz")
+    elif(i % 3 == 0):
+        print("Fizz")
+    else:
+        print(i)
+
+""" 8) funcion called exponent(base, exp) that returns an int value of base raises to the power of exp."""
+
+
+
+
+
+
+
+
+
+""" 9) function that finds the gratest one-digit number in a list"""
+
+def max_onedigit(list):
+    onedig = max(i for i in list if -9 <= i <= 9)
+    print(onedig)
+
+list1 = [2,43,232,52,4,2,8,23,23]
+max_onedigit(list1)
